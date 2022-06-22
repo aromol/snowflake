@@ -2,6 +2,8 @@ import streamlit
 import pandas
 import requests
 
+import snowflake.connector
+
 #Añadimos el titulo de nuestro sitio web
 
 streamlit.title("Listado de comida")
